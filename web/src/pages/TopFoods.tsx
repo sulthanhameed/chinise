@@ -25,7 +25,7 @@ export function TopFoods() {
     <div className="page">
       <header className="page-hero">
         <p className="kicker">Most loved this season</p>
-        <h1 className="brush">Top Foods</h1>
+        <h1 className="heading-font">Top Foods</h1>
         <p className="muted">Ranked by guest ratings and number of reviews.</p>
       </header>
 

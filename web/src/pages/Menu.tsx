@@ -59,7 +59,7 @@ export function Menu() {
     <div className="page menu-page">
       <header className="page-hero">
         <p className="kicker">Khang Chinese Restaurant &amp; Dimsum</p>
-        <h1 className="brush">Our Menu</h1>
+        <h1 className="heading-font">Our Menu</h1>
         <p className="muted">Every dish is made to order. Tap a dish for ingredients and reviews.</p>
       </header>
 

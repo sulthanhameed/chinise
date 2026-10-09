@@ -9,20 +9,20 @@ export function About() {
     <div className="page">
       <header className="page-hero">
         <p className="kicker">Our story</p>
-        <h1 className="brush">About Khang</h1>
+        <h1 className="heading-font">About Khang</h1>
         <GoldDivider />
       </header>
       <div className="about-grid">
         <Reveal>
           <div className="about-card">
-            <h2 className="brush">Tradition on every plate</h2>
+            <h2 className="heading-font">Tradition on every plate</h2>
             <p>Khang Chinese Restaurant &amp; Dimsum brings the teahouse spirit of southern China to your table. Our dim sum is folded by hand each morning and steamed to order.</p>
             <p>From slow-simmered broths to wok-fired classics, every recipe is built on fresh ingredients and patient technique.</p>
           </div>
         </Reveal>
         <Reveal delay={120}>
           <div className="about-card accent">
-            <h2 className="brush">What we stand for</h2>
+            <h2 className="heading-font">What we stand for</h2>
             <ul className="check-list">
               <li>Fresh ingredients, prepared daily</li>
               <li>Recipes rooted in Chinese tradition</li>
@@ -35,7 +35,7 @@ export function About() {
       <div className="stats-row">
         {[["4.6 ★", "Average rating"], ["583", "Guest reviews"], ["5", "Dim sum categories"], ["7 days", "Open every week"]].map(([n, l], i) => (
           <Reveal key={l} delay={i * 80}>
-            <div className="stat"><strong className="brush">{n}</strong><span>{l}</span></div>
+            <div className="stat"><strong className="heading-font">{n}</strong><span>{l}</span></div>
           </Reveal>
         ))}
       </div>
@@ -55,7 +55,7 @@ export function Services() {
     <div className="page">
       <header className="page-hero">
         <p className="kicker">What we offer</p>
-        <h1 className="brush">Our Services</h1>
+        <h1 className="heading-font">Our Services</h1>
       </header>
       <div className="service-grid">
         {SERVICES.map((s, i) => (
@@ -97,7 +97,7 @@ export function Contact() {
     <div className="page">
       <header className="page-hero">
         <p className="kicker">We would love to hear from you</p>
-        <h1 className="brush">Contact Us</h1>
+        <h1 className="heading-font">Contact Us</h1>
       </header>
       <div className="contact-grid">
         <Reveal>

@@ -17,7 +17,7 @@ export function CartDrawer() {
       <div className={`drawer-scrim ${drawerOpen ? "show" : ""}`} onClick={closeDrawer} aria-hidden="true" />
       <aside className={`cart-drawer ${drawerOpen ? "open" : ""}`} aria-label="Shopping cart" aria-hidden={!drawerOpen}>
         <header className="drawer-head">
-          <h3 className="brush">Your Order</h3>
+          <h3 className="heading-font">Your Order</h3>
           <button className="icon-btn" onClick={closeDrawer} aria-label="Close cart">×</button>
         </header>
 

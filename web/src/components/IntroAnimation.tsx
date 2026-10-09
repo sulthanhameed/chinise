@@ -279,7 +279,7 @@ function DiningRoom() {
       <rect x={0} y={64} width={1600} height={8} fill="#facc15" />
       <rect x={60} y={96} width={1480} height={300} rx={8} fill="url(#latticeFill)" stroke="#a16207" strokeWidth={4} />
       <rect x={560} y={112} width={480} height={240} rx={6} fill="#fef3c7" stroke="#a16207" strokeWidth={6} />
-      <text x={800} y={205} textAnchor="middle" fontSize={64} fill="#b91c1c" className="brush">福</text>
+      <text x={800} y={205} textAnchor="middle" fontSize={64} fill="#b91c1c" className="heading-font">福</text>
       <text x={800} y={288} textAnchor="middle" fontSize={24} fill="#15803d" letterSpacing={6}>KHANG DIMSUM</text>
       <Window x={110} y={130} w={200} h={250} />
       <Window x={1290} y={130} w={200} h={250} />
@@ -380,8 +380,8 @@ function Entrance() {
         <rect x={420} y={318} width={760} height={150} rx={18} fill="#fffbeb" stroke="#facc15" strokeWidth={10} />
         <rect x={420} y={318} width={760} height={26} rx={10} fill="#15803d" />
         <rect x={420} y={442} width={760} height={26} rx={10} fill="#15803d" />
-        <text x={800} y={398} textAnchor="middle" fontSize={72} textLength={640} lengthAdjust="spacingAndGlyphs" fontFamily="'Ma Shan Zheng','Noto Serif SC',serif" fill="#15803d" fontWeight={700}>KHANG DIMSUM</text>
-        <text x={800} y={436} textAnchor="middle" fontSize={26} fill="#b91c1c" letterSpacing={9} fontWeight={700} fontFamily="Inter, Arial, sans-serif">CHINESE RESTAURANT</text>
+        <text x={800} y={398} textAnchor="middle" fontSize={72} textLength={640} lengthAdjust="spacingAndGlyphs" fontFamily="'Unbounded', sans-serif" fill="#15803d" fontWeight={700}>KHANG DIMSUM</text>
+        <text x={800} y={436} textAnchor="middle" fontSize={26} fill="#b91c1c" letterSpacing={9} fontWeight={700} fontFamily="Manrope, Arial, sans-serif">CHINESE RESTAURANT</text>
       </g>
       {/* windows */}
       <rect x={430} y={500} width={230} height={170} rx={10} fill="#fde68a" stroke="#14532d" strokeWidth={8} />

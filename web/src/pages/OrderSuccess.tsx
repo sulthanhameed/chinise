@@ -45,7 +45,7 @@ export function OrderSuccess() {
   if (!orderCode) {
     return (
       <div className="page center">
-        <h1 className="brush">No order found</h1>
+        <h1 className="heading-font">No order found</h1>
         <Link className="btn btn-primary" to="/menu">Back to menu</Link>
       </div>
     );
@@ -57,7 +57,7 @@ export function OrderSuccess() {
   return (
     <div className="page success-page center">
       <div className={`success-badge ${cancelled ? "cancelled" : ""}`} aria-hidden="true">{cancelled ? "!" : "✓"}</div>
-      <h1 className="brush">{cancelled ? "Payment cancelled" : "Thank you for your order!"}</h1>
+      <h1 className="heading-font">{cancelled ? "Payment cancelled" : "Thank you for your order!"}</h1>
       <p className="muted">
         {cancelled
           ? "Your order was saved but not paid. You can retry payment from the Track page."

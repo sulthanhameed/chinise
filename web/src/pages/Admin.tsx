@@ -28,7 +28,7 @@ export function Admin() {
   if (!isAdmin) {
     return (
       <div className="page center">
-        <h1 className="brush">Admins only</h1>
+        <h1 className="heading-font">Admins only</h1>
         <p className="muted">Sign in with an admin account to manage the restaurant.</p>
         <Link className="btn btn-primary" to="/login">Sign in</Link>
       </div>
@@ -39,7 +39,7 @@ export function Admin() {
     <div className="page admin-page">
       <header className="page-hero">
         <p className="kicker">Restaurant control</p>
-        <h1 className="brush">Admin Dashboard</h1>
+        <h1 className="heading-font">Admin Dashboard</h1>
       </header>
       <nav className="tabs wrap" role="tablist">
         {TABS.map((t) => (

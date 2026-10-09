@@ -29,7 +29,7 @@ export function Login() {
   return (
     <div className="page auth-page">
       <div className="auth-card">
-        <h1 className="brush">{mode === "signin" ? "Welcome back" : "Join Khang"}</h1>
+        <h1 className="heading-font">{mode === "signin" ? "Welcome back" : "Join Khang"}</h1>
         <div className="tabs" role="tablist">
           <button role="tab" aria-selected={mode === "signin"} className={mode === "signin" ? "active" : ""} onClick={() => setMode("signin")}>Sign in</button>
           <button role="tab" aria-selected={mode === "signup"} className={mode === "signup" ? "active" : ""} onClick={() => setMode("signup")}>Sign up</button>

@@ -125,5 +125,4 @@ button or Esc. It is turned off for users who prefer reduced motion. Edit
 
 ## Brand
 
-Primary `#b91c1c` (deep red) · Secondary `#16a34a` (jade) · Accent `#facc15` (gold) ·
-Background `#fff7ed` · Text `#111`. Headings use *Ma Shan Zheng* (brush style); body text uses Inter.
+Lacquer Glass v2 (dark-first). Background `#07080b` · Surface `#12141b` · Text `#f4f4f5` · Muted `#9ca3af`. Accents: lacquer `#ff4d2e` → `#ff8a4c`, jade `#2dd4a7`, champagne `#f5d28a`; the brand gradient runs 135° lacquer → lacquer-2 → champagne. Display headings use *Unbounded*; body text uses *Manrope*. The navbar is a floating glassmorphism pill. The intro sign keeps its green text per brief.

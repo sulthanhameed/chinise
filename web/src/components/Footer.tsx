@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { GoldDivider } from "./Decor";
+import { Logo } from "./Logo";
 
 export function Footer() {
   return (
@@ -7,7 +8,8 @@ export function Footer() {
       <GoldDivider />
       <div className="footer-grid">
         <div>
-          <p className="brush footer-brand">Khang Chinese Restaurant &amp; Dimsum</p>
+          <div className="footer-logo"><Logo /></div>
+          <p className="muted footer-tag">Khang Chinese Restaurant &amp; Dimsum</p>
           <p className="muted">Authentic Chinese flavors, crafted fresh every day.</p>
         </div>
         <nav aria-label="Footer">

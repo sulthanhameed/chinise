@@ -57,7 +57,7 @@ function Shell() {
               path="*"
               element={
                 <div className="page center">
-                  <h1 className="brush">Page not found</h1>
+                  <h1 className="heading-font">Page not found</h1>
                   <a className="btn btn-primary" href="/">Back home</a>
                 </div>
               }

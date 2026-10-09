@@ -71,7 +71,7 @@ export function Track() {
     <div className="page track-page">
       <header className="page-hero">
         <p className="kicker">Where is my food?</p>
-        <h1 className="brush">Track Your Order</h1>
+        <h1 className="heading-font">Track Your Order</h1>
       </header>
 
       <form className="track-search" onSubmit={submit}>

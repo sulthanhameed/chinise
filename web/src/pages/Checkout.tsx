@@ -50,7 +50,7 @@ export function Checkout() {
   if (count === 0) {
     return (
       <div className="page center">
-        <h1 className="brush">Your cart is empty</h1>
+        <h1 className="heading-font">Your cart is empty</h1>
         <p className="muted">Add a few dishes from the menu first.</p>
         <Link className="btn btn-primary" to="/menu">Go to menu</Link>
       </div>
@@ -134,7 +134,7 @@ export function Checkout() {
     <div className="page checkout-page">
       <header className="page-hero">
         <p className="kicker">Almost there</p>
-        <h1 className="brush">Checkout</h1>
+        <h1 className="heading-font">Checkout</h1>
       </header>
 
       <form className="checkout-grid" onSubmit={submit}>

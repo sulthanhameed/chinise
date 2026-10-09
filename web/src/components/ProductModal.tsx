@@ -59,7 +59,7 @@ export function ProductModal({ product, category, onClose, onAdd, onOrderNow }: 
         </div>
         <div className="modal-body">
           <p className="kicker">{category?.name}</p>
-          <h2 className="brush">{product.name}</h2>
+          <h2 className="heading-font">{product.name}</h2>
           <div className="modal-meta">
             <Stars rating={product.rating} count={product.review_count} />
             <strong className="price">{formatINR(product.price)}</strong>

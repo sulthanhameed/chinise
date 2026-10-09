@@ -53,7 +53,7 @@ export function Profile() {
     <div className="page profile-page">
       <header className="page-hero">
         <p className="kicker">Your account</p>
-        <h1 className="brush">{profile?.full_name || "Your profile"}</h1>
+        <h1 className="heading-font">{profile?.full_name || "Your profile"}</h1>
         <p className="muted">{user?.email}</p>
       </header>
 

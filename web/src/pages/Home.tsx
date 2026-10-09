@@ -37,7 +37,7 @@ function Hero() {
   return (
     <section className="hero" ref={ref}>
       <div className="hero-media">
-        <VideoBackdrop src="/media/hero.mp4" poster="/images/hero-poster.jpg" />
+        <VideoBackdrop src="/media/hero.mp4" poster="/images/hero-poster-v2.jpg" />
       </div>
       <div className="hero-lanterns" aria-hidden="true">
         <Lantern className="float-a" size={1.4} />
@@ -46,7 +46,7 @@ function Hero() {
       </div>
       <div className="hero-content">
         <p className="kicker fade-in-up">Khang Chinese Restaurant &amp; Dimsum</p>
-        <h1 className="brush fade-in-up delay-1">Authentic Chinese Flavors, Crafted Fresh</h1>
+        <h1 className="heading-font fade-in-up delay-1">Authentic Chinese Flavors, Crafted Fresh</h1>
         <p className="hero-sub fade-in-up delay-2">
           Hand-folded dim sum, slow-simmered noodle broths and wok-fired classics — delivered hot to your door.
         </p>
@@ -77,7 +77,7 @@ function OrderTrackTeaser() {
     >
       <div>
         <p className="kicker">Already ordered?</p>
-        <h3 className="brush">Track your order</h3>
+        <h3 className="heading-font">Track your order</h3>
         <p className="muted">Enter the Order ID from your confirmation message.</p>
       </div>
       <div className="track-input-row">
@@ -135,7 +135,7 @@ export function Home() {
         <VideoBackdrop src="/media/promo.mp4" poster="/images/food/siu-mai.jpg" className="promo-video" />
         <Reveal className="promo-copy">
           <p className="kicker">Hand-folded every morning</p>
-          <h2 className="brush">From our steamers to your table</h2>
+          <h2 className="heading-font">From our steamers to your table</h2>
           <p>Our dim sum chefs fold, steam and serve every basket fresh. Taste the tradition in every bite.</p>
           <Link className="btn btn-gold" to="/menu">Explore the menu</Link>
         </Reveal>

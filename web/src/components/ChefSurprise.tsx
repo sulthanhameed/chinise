@@ -45,7 +45,7 @@ export function ChefSurprise({ products, categories, onAdd, onOpen }: Props) {
     <div className="chef-surprise">
       <div className="chef-copy">
         <p className="kicker">Feeling adventurous?</p>
-        <h2 className="brush">Chef’s Surprise</h2>
+        <h2 className="heading-font">Chef’s Surprise</h2>
         <p>Let our chef choose something delicious for you. Spin the wheel and discover today’s pick.</p>
         <button className="btn btn-gold" onClick={spin} disabled={spinning || available.length === 0}>
           {spinning ? "Spinning…" : "Spin for a surprise"}
